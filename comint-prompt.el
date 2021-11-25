@@ -36,10 +36,10 @@
     (shell . (shell-mode . (shell-prompt-pattern))))
   "Prompts to add font-lock.")
 
-(defface comint-prompt-input-face '((t (:foreground "#303f9f" :weight bold)))
+(defface comint-prompt-input-face '((t (:foreground "#303f9f")))
   "Face for comint input prompts.")
 
-(defface comint-prompt-output-face '((t (:foreground "#d84314" :weight bold)))
+(defface comint-prompt-output-face '((t (:foreground "#d84314")))
   "Face for comint output prompts.")
 
 (defun comint-prompt--to-list (x)
