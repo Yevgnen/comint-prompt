@@ -33,6 +33,8 @@
   '((python . (inferior-python-mode . ((python-shell-prompt-input-regexps
                                         python-shell-prompt-pdb-regexp)
                                        . python-shell-prompt-output-regexps)))
+    (python-mode . (py-shell-mode . (py-shell--prompt-calculated-input-regexp
+                                     . py-shell--prompt-calculated-output-regexp)))
     (shell . (shell-mode . (shell-prompt-pattern))))
   "Prompts to add font-lock.")
 
